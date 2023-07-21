@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Plane View Controller-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
-                <viewController id="Y6W-OH-hqX" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PlaneViewController" id="Y6W-OH-hqX" customClass="PlaneViewController" customModule="CoordinatorPattern" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -22,16 +22,39 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vjs-fn-mXY">
+                                <rect key="frame" x="135.66666666666666" y="476.66666666666669" width="121.66666666666666" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Move to Bike"/>
+                                <connections>
+                                    <action selector="moveToBike:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="m7s-2A-VsJ"/>
+                                    <action selector="moveToBike:" destination="PCt-Q1-zcc" eventType="touchUpInside" id="qjn-qc-jQq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fg4-wn-bu1">
+                                <rect key="frame" x="138.33333333333334" y="531.66666666666663" width="116.33333333333334" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Move to Car"/>
+                                <connections>
+                                    <action selector="moveToCar:" destination="PCt-Q1-zcc" eventType="touchUpInside" id="7Ja-pL-VmR"/>
+                                    <action selector="moveToCar:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="zxN-KF-JAg"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="Vjs-fn-mXY" firstAttribute="top" secondItem="I2q-iE-D7T" secondAttribute="bottom" constant="40" id="0ia-KG-B0l"/>
+                            <constraint firstItem="Vjs-fn-mXY" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="0tp-ev-V2x"/>
+                            <constraint firstItem="Fg4-wn-bu1" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="3Lj-TJ-8uk"/>
                             <constraint firstItem="I2q-iE-D7T" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="EKI-2a-LIK"/>
                             <constraint firstItem="I2q-iE-D7T" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="KbQ-m7-RY4"/>
+                            <constraint firstItem="Fg4-wn-bu1" firstAttribute="top" secondItem="Vjs-fn-mXY" secondAttribute="bottom" constant="20" id="Q1R-vB-PUf"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="PCt-Q1-zcc" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="132" y="-34"/>
         </scene>
