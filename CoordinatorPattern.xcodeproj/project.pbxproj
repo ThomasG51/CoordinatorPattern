@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		7EF3FEF42A6A6471002AE58D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF3FEF32A6A6471002AE58D /* AppDelegate.swift */; };
 		7EF3FEF62A6A6471002AE58D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF3FEF52A6A6471002AE58D /* SceneDelegate.swift */; };
-		7EF3FEF82A6A6471002AE58D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF3FEF72A6A6471002AE58D /* ViewController.swift */; };
-		7EF3FEFB2A6A6472002AE58D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EF3FEF92A6A6472002AE58D /* Main.storyboard */; };
+		7EF3FEF82A6A6471002AE58D /* CarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF3FEF72A6A6471002AE58D /* CarViewController.swift */; };
+		7EF3FEFB2A6A6472002AE58D /* CarView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EF3FEF92A6A6472002AE58D /* CarView.storyboard */; };
 		7EF3FEFD2A6A6472002AE58D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EF3FEFC2A6A6472002AE58D /* Assets.xcassets */; };
 		7EF3FF002A6A6472002AE58D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EF3FEFE2A6A6472002AE58D /* LaunchScreen.storyboard */; };
+		7EF3FF0C2A6A6696002AE58D /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF3FF0B2A6A6696002AE58D /* Car.swift */; };
+		7EF3FF0E2A6A674E002AE58D /* PlaneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF3FF0D2A6A674E002AE58D /* PlaneViewController.swift */; };
+		7EF3FF102A6A6762002AE58D /* BikeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF3FF0F2A6A6762002AE58D /* BikeViewController.swift */; };
+		7EF3FF122A6A6770002AE58D /* PlaneView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EF3FF112A6A6770002AE58D /* PlaneView.storyboard */; };
+		7EF3FF142A6A677B002AE58D /* BikeView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EF3FF132A6A677B002AE58D /* BikeView.storyboard */; };
+		7EF3FF162A6A6784002AE58D /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF3FF152A6A6784002AE58D /* Plane.swift */; };
+		7EF3FF182A6A678B002AE58D /* Bike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF3FF172A6A678B002AE58D /* Bike.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7EF3FEF02A6A6471002AE58D /* CoordinatorPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoordinatorPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EF3FEF32A6A6471002AE58D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7EF3FEF52A6A6471002AE58D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7EF3FEF72A6A6471002AE58D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7EF3FEFA2A6A6472002AE58D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7EF3FEF72A6A6471002AE58D /* CarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarViewController.swift; sourceTree = "<group>"; };
+		7EF3FEFA2A6A6472002AE58D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/CarView.storyboard; sourceTree = "<group>"; };
 		7EF3FEFC2A6A6472002AE58D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7EF3FEFF2A6A6472002AE58D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7EF3FF012A6A6472002AE58D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EF3FF0B2A6A6696002AE58D /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		7EF3FF0D2A6A674E002AE58D /* PlaneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaneViewController.swift; sourceTree = "<group>"; };
+		7EF3FF0F2A6A6762002AE58D /* BikeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeViewController.swift; sourceTree = "<group>"; };
+		7EF3FF112A6A6770002AE58D /* PlaneView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PlaneView.storyboard; sourceTree = "<group>"; };
+		7EF3FF132A6A677B002AE58D /* BikeView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BikeView.storyboard; sourceTree = "<group>"; };
+		7EF3FF152A6A6784002AE58D /* Plane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plane.swift; sourceTree = "<group>"; };
+		7EF3FF172A6A678B002AE58D /* Bike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bike.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +72,52 @@
 			children = (
 				7EF3FEF32A6A6471002AE58D /* AppDelegate.swift */,
 				7EF3FEF52A6A6471002AE58D /* SceneDelegate.swift */,
-				7EF3FEF72A6A6471002AE58D /* ViewController.swift */,
-				7EF3FEF92A6A6472002AE58D /* Main.storyboard */,
-				7EF3FEFC2A6A6472002AE58D /* Assets.xcassets */,
-				7EF3FEFE2A6A6472002AE58D /* LaunchScreen.storyboard */,
 				7EF3FF012A6A6472002AE58D /* Info.plist */,
+				7EF3FEFC2A6A6472002AE58D /* Assets.xcassets */,
+				7EF3FF092A6A6505002AE58D /* Model */,
+				7EF3FF072A6A64E1002AE58D /* View */,
+				7EF3FF0A2A6A650D002AE58D /* Controller */,
+				7EF3FF082A6A64ED002AE58D /* Coordinator */,
 			);
 			path = CoordinatorPattern;
+			sourceTree = "<group>";
+		};
+		7EF3FF072A6A64E1002AE58D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7EF3FEFE2A6A6472002AE58D /* LaunchScreen.storyboard */,
+				7EF3FEF92A6A6472002AE58D /* CarView.storyboard */,
+				7EF3FF112A6A6770002AE58D /* PlaneView.storyboard */,
+				7EF3FF132A6A677B002AE58D /* BikeView.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7EF3FF082A6A64ED002AE58D /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		7EF3FF092A6A6505002AE58D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7EF3FF0B2A6A6696002AE58D /* Car.swift */,
+				7EF3FF152A6A6784002AE58D /* Plane.swift */,
+				7EF3FF172A6A678B002AE58D /* Bike.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7EF3FF0A2A6A650D002AE58D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7EF3FEF72A6A6471002AE58D /* CarViewController.swift */,
+				7EF3FF0D2A6A674E002AE58D /* PlaneViewController.swift */,
+				7EF3FF0F2A6A6762002AE58D /* BikeViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +180,9 @@
 			files = (
 				7EF3FF002A6A6472002AE58D /* LaunchScreen.storyboard in Resources */,
 				7EF3FEFD2A6A6472002AE58D /* Assets.xcassets in Resources */,
-				7EF3FEFB2A6A6472002AE58D /* Main.storyboard in Resources */,
+				7EF3FF122A6A6770002AE58D /* PlaneView.storyboard in Resources */,
+				7EF3FF142A6A677B002AE58D /* BikeView.storyboard in Resources */,
+				7EF3FEFB2A6A6472002AE58D /* CarView.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,21 +193,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EF3FEF82A6A6471002AE58D /* ViewController.swift in Sources */,
+				7EF3FF182A6A678B002AE58D /* Bike.swift in Sources */,
+				7EF3FEF82A6A6471002AE58D /* CarViewController.swift in Sources */,
 				7EF3FEF42A6A6471002AE58D /* AppDelegate.swift in Sources */,
+				7EF3FF0C2A6A6696002AE58D /* Car.swift in Sources */,
+				7EF3FF102A6A6762002AE58D /* BikeViewController.swift in Sources */,
 				7EF3FEF62A6A6471002AE58D /* SceneDelegate.swift in Sources */,
+				7EF3FF0E2A6A674E002AE58D /* PlaneViewController.swift in Sources */,
+				7EF3FF162A6A6784002AE58D /* Plane.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7EF3FEF92A6A6472002AE58D /* Main.storyboard */ = {
+		7EF3FEF92A6A6472002AE58D /* CarView.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				7EF3FEFA2A6A6472002AE58D /* Base */,
 			);
-			name = Main.storyboard;
+			name = CarView.storyboard;
 			sourceTree = "<group>";
 		};
 		7EF3FEFE2A6A6472002AE58D /* LaunchScreen.storyboard */ = {
@@ -293,8 +353,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,9 +362,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ThomasG51.CoordinatorPattern;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -321,8 +384,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,9 +393,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ThomasG51.CoordinatorPattern;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
